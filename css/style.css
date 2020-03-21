@@ -93,7 +93,7 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
+  margin-top: 0;allows
   margin-bottom: 1rem; }
 
 ol ol,
@@ -139,6 +139,7 @@ a {
   a:hover {
     color: #0056b3;
     text-decoration: underline; }
+
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -472,6 +473,7 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -694,6 +696,24 @@ pre {
 
 .offset-11 {
   margin-left: 91.66667%; }
+.article-metadata {
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 14px;
+    letter-spacing: .03em;
+    color: rgba(0,0,0,.54);
+}
+.middot-divider {
+      padding-right: .45em;
+      padding-left: .45em;
+      font-size: 15px;
+}
+
+.middot-divider::after {
+      content: '\00B7';
+}
+
+
 
 @media (min-width: 576px) {
   .col-sm {
@@ -3804,6 +3824,9 @@ input[type="button"].btn-block {
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0; }
+.card-text p{
+  color: #000!important;
+}
 
 .card-text:last-child {
   margin-bottom: 0; }
