@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Akram Boutouchent</title>
-    <link>https://boutou.xyz/</link>
-    <description>Recent content on Akram Boutouchent</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://boutou.xyz/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Akram Boutouchent</title>
+        <link>http://example.org/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Nov 2025 23:11:41 &#43;0100</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
 </rss>
