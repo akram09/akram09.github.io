@@ -2,13 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Akram Boutouchent</title>
-    <link>/</link>
+    <link>https://boutou.xyz/</link>
     <description>Recent content on Akram Boutouchent</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://boutou.xyz/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
